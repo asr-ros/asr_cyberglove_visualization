@@ -1,0 +1,6 @@
+<launch>
+	<param name="robot_description" command="cat $(find asr_cyberglove_visualization)/models/model_hand_right.xml" />
+	<node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+	<node name="test_fob" pkg="asr_cyberglove_visualization" type="test_fob" />
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find asr_cyberglove_visualization)/rviz/config_fob.rviz" required="true" />
+</launch>

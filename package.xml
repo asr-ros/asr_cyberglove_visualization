@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>asr_cyberglove_visualization</name>
+  <version>1.0.0</version>
+  <description>
+    This package is used to test the functionalities of the CyberGloves and FlockOfBirds. 
+    It uses an URDF model of a human hand to provide a visualization of the glove movements in RViz. 
+  </description>
+  <author>Heller Florian, Meißner Pascal, Nguyen Trung, Yi Xie</author>
+  <maintainer email="asr-ros@lists.kit.edu">Meißner Pascal</maintainer>
+  <license>BSD</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>asr_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  
+  <run_depend>asr_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>tf</run_depend>
+</package>
