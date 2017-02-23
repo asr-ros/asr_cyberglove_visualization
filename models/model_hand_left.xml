@@ -346,7 +346,7 @@
   <axis xyz="1 0 0" />
 </joint>
 
-<!-- additional dummy link and joint for using flock_of_birds -->
+<!-- additional dummy link and joint for using asr_flock_of_birds -->
 
 <link name="fob_sensor" />
 

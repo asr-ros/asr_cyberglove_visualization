@@ -37,7 +37,7 @@ void callback(const asr_msgs::AsrGloveConstPtr& msg)
 {
     joint_state.header.stamp = ros::Time::now();
 
-    // wrist: not needed because used in combination with flock_of_birds
+    // wrist: not needed because used in combination with asr_flock_of_birds
     joint_state.position[0] = 0;
     joint_state.position[1] = 0;
 
@@ -72,7 +72,7 @@ void callback(const asr_msgs::AsrGloveConstPtr& msg)
 }
 
 /**
- * Callback that receives the current pose of the flock_of_birds tracker
+ * Callback that receives the current pose of the asr_flock_of_birds tracker
  * and publishes the corresponding transformation for the hand model.
  */
 void callback_tf(const asr_msgs::AsrObjectConstPtr& msg)

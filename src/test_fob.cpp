@@ -104,7 +104,7 @@ int main(int argc, char **argv)
     joint_state.name[20] ="pi_j2";
     joint_state.name[21] ="pi_j3";
 
-    // 0-pose for hand model, since only the flock_of_birds tracker is tested
+    // 0-pose for hand model, since only the asr_flock_of_birds tracker is tested
     joint_state.position[0] = 0;
     joint_state.position[1] = 0;
     joint_state.position[2] = 0;
