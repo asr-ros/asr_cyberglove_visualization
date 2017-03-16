@@ -6,7 +6,7 @@
     This package is used to test the functionalities of the CyberGloves and FlockOfBirds. 
     It uses an URDF model of a human hand to provide a visualization of the glove movements in RViz. 
   </description>
-  <author>Heller Florian, Meißner Pascal, Nguyen Trung, Yi Xie</author>
+  <author>Heller Florian, Jäkel Rainer, Kasper Alexander, Meißner Pascal, Nguyen Trung, Yi Xie</author>
   <maintainer email="asr-ros@lists.kit.edu">Meißner Pascal</maintainer>
   <license>BSD</license>
   
