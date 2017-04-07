@@ -104,7 +104,7 @@ int main(int argc, char **argv)
     ros::init(argc, argv, "test_glove_fob");
     ros::NodeHandle node;
 
-    sub_states = node.subscribe("rightGloveData_randian", 1, callback);
+    sub_states = node.subscribe("rightGloveData_radian", 1, callback);
     pub_states = node.advertise<sensor_msgs::JointState>("joint_states", 1);
 
     sub_tf = node.subscribe("fob_objects", 1, callback_tf);

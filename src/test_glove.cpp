@@ -72,7 +72,7 @@ int main(int argc, char **argv)
     ros::init(argc, argv, "test_glove");
     ros::NodeHandle node;
 
-    sub_states = node.subscribe("rightGloveData_randian", 1, callback);
+    sub_states = node.subscribe("rightGloveData_radian", 1, callback);
     pub_states = node.advertise<sensor_msgs::JointState>("joint_states", 1);
 
     joint_state.name.resize(22);
