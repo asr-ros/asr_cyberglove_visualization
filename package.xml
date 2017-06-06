@@ -9,6 +9,7 @@
   <author>Heller Florian, Jäkel Rainer, Kasper Alexander, Meißner Pascal, Nguyen Trung, Yi Xie</author>
   <maintainer email="asr-ros@lists.kit.edu">Meißner Pascal</maintainer>
   <license>BSD</license>
+  <url type="website">http://wiki.ros.org/asr_cyberglove_visualization</url>
   
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>asr_msgs</build_depend>
